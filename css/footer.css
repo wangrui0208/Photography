@@ -1,0 +1,9 @@
+/*************footer****************/
+footer{
+	height:100px;
+	background:#222222;
+	text-align:center;
+	line-height:100px;
+	font-size:12px;
+	color: #e3dfff;
+}

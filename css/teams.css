@@ -1,0 +1,111 @@
+
+/*************teams******************/
+.body-centy .teams{
+	background:#F4F4F4;
+	padding-top:100px;
+}
+.body-centy .teams .teams-title{
+	color: #4B4B4B;
+    font-size: 50px;
+	text-align: center;
+	font-family: "News Cycle", sans-serif;
+	font-weight: 400;
+	padding-bottom: 70px;
+}
+.body-centy .teams .teams-img{
+	width:85%;
+	margin: 0 auto;
+}
+.body-centy .teams .teams-img img{
+	border-radius: 50%  50%;
+}
+.body-centy .teams .teams-img li:hover{
+	transform: scale(1.01,1.01);
+	transition: all 1s linear;
+}
+.body-centy .teams .teams-img li{
+	float:left;
+	width:253px;
+	margin-right:43px;
+	position: relative;
+	margin-bottom:50px;
+	transition: all 1s linear;
+}
+.body-centy .teams .teams-img li:last-child{
+	margin-right:0;
+}
+.body-centy .teams .teams-img li h1{
+	cursor: pointer;
+	color:#494949;
+	font-size:26px;
+	margin:10px 0;
+	text-align: center;
+}
+.body-centy .teams .teams-img li p{
+	color:#777777;
+	font-weight: 200;
+	text-align:center;
+}
+
+.body-centy .teams .search{
+	position: absolute;
+	top:100px;
+	width:50px;
+	height:50px;
+	background:#3EAABF;
+	border-radius: 50%;
+	animation: all 1s linear;
+	cursor: pointer;
+}
+.icon{
+	font-size: 25px;
+	color:#fff;
+	text-align: center;
+	line-height:50px;
+}
+.body-centy .teams .search:hover{
+	background:#222222;
+}
+/**************alert******************/
+.alert{
+	width:100%;
+	height:100%;
+	position:fixed;
+	opacity:0.6;
+	z-index:456464;
+	background: #232323;
+	top:0px;
+	display: none;
+}
+.teams-alert{
+	width:600px;
+	height:auto;
+	background:#F4F4F4;
+	position:fixed;
+	left:25%;
+	top:20%;
+	text-align: center;
+	z-index:4576478648;
+	display: none;
+}
+.teams-alert .teams-close{
+	width:30px;
+	height:30px;
+	background:#3EAABF;
+	text-align: center;
+	float:right;
+	cursor: pointer;
+}
+.teams-alert h1{
+	color:#3eaabf;
+	margin:10px 0;
+	font-size:28px;
+	font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+.teams-alert p{
+	color:#777;
+	font-size:14px;
+	padding: 0 25px;
+	padding-bottom:50px;
+}

@@ -1,0 +1,101 @@
+/*************Blog******************/
+.blog{
+	height:auto;
+	width:85%;
+	margin:70px auto;
+}
+.blog .blog-title{
+	position: relative;
+	margin:100px auto;
+}
+.blog .blog-title span p{
+	margin-bottom:10px;
+}
+.blog .blog-title span p:nth-child(1){
+	font-size: 36px;
+	font-weight: 400;
+	color: #333333;
+}
+.blog .blog-title span p:nth-child(2){
+	font-size: 14px;
+	font-weight: 400;
+	color: #333333;
+}
+.blog .blog-title span.view-all{
+	color:#34C8B2;
+	font-size:18px;
+	border:1px solid #34C8B2;
+	padding:10px 10px;
+	position:absolute;
+	right:10px;
+	bottom:20px;
+	animation: all 1s linear;
+}
+.blog .blog-title span.view-all:hover{
+	color:#FFFFFF;
+	font-size:18px;
+	border:1px solid #34C8B2;
+	padding:10px 10px;
+	background-color:#34C8B2; 
+	position:absolute;
+	right:10px;
+	bottom:20px;
+	animation: all 1s linear;
+}
+.blog .footer-list{
+	width:100%;
+}
+.blog .footer-list ul li{
+	width:360px;
+	height:auto;
+	float: left;
+	margin-right:20px;
+}
+.blog .footer-list ul li:last-child{
+	margin-right:0px;
+}
+.blog .footer-list ul li div{
+	position: relative;
+}
+.blog .footer-list ul li img{
+	width:360px;
+}
+.blog .footer-list ul li div div{
+	position: absolute;
+	top:0px;
+	width:100%;
+	height:100%;
+	overflow: hidden;
+}
+.blog .footer-list ul li div div a{
+	position: absolute;
+	bottom:-100px;
+	width:100%;
+	height:70px;
+	background:#fff;
+	opacity:0.8;
+	line-height:70px;
+	font-size:28px;
+	text-align:center;
+	color:#000;
+	opacity:0.8;
+	text-transform: uppercase;
+}
+.blog .footer-list ul li h2{
+	font-size:33px;
+	font-family: serif;
+	font-weight:600px;
+	margin:20px 0 5px 0;
+	cursor: pointer;
+	color:#56CFBD;
+	animation:all 1s linear;
+}
+.blog .footer-list ul li h2:hover{
+	color:#EC4741;
+	animation:all 1s linear;
+}
+.blog .footer-list ul li p{
+	font-size:14px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin-bottom:70px;
+}

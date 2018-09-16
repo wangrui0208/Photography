@@ -1,0 +1,20 @@
+/* basic */
+body,p,div,h1,h2,h3,h4,h5,h6,pre,span,ol,ul,li,img{
+	margin:0px;
+	padding:0px;
+	font-family: "News Cycle", sans-serif;
+}
+a{
+	text-decoration:none;
+}
+ul,ol,li{
+	list-style:none;
+}
+.clearfloat{
+	display:block;
+	clear:both;
+	content:"";
+	visibility:hidden;
+	height:0;
+	zoom:1
+}

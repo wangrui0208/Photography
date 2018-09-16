@@ -1,0 +1,49 @@
+#lift{
+    display:none;
+    position: fixed;
+    z-index: 100;
+    right: 15px;
+    top:100px;
+    width:80px;
+}
+.lift_list{ 
+    display: block;
+    list-style:none;
+}
+.lift_btn_txt{
+    font-size:14px;
+}
+.lift_item {
+    border: 1px solid #b1aaaa;
+    transition: background-color .1s;
+    margin:10px 0;
+    background-color: #918888;
+    border-radius: 5px;
+}
+.lift_btn {
+    overflow: hidden;
+    display: block;
+    width: 24px;
+    padding: 10px 5px;
+    line-height: 14px;
+    text-align: center;
+    color: #fefefe;
+    transition: color .1s;
+}
+.lift_item:hover, .lift_item.hover {
+    position: relative;
+    border-bottom: 1px solid #5FC3B6;
+    margin-bottom: -1px;
+    border-color: #5FC3B6;
+    background-color: #5FC3B6;
+}
+.lift_btn {
+    overflow: hidden;
+    display: block;
+    width: 70px;
+    padding: 10px 5px;
+    line-height: 14px;
+    text-align: center;
+    color: #fefefe;
+    transition: color .1s;
+}

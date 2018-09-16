@@ -1,0 +1,92 @@
+/******header************/
+body{
+	position:relative;
+}
+header>.myTitle{
+	position:fixed;
+	top:0px;
+	z-index:100;
+}
+header>.myTitle{
+	width:100%;
+	height:70px;
+	background:rgba(34,34,34,0.6);
+	line-height:70px;
+}
+header div.photo{
+	color:white;
+	font-family: "News Cycle", sans-serif;
+	font-size:17px;
+	margin-left:100px;
+	font-weight:bold;
+	float:left;
+}
+header div.photo>span{
+	font-weight:normal;
+	color:rgb(205, 209, 210);
+}
+header .myTitle .about{
+	box-sizing: border-box;
+	margin-right:30px;
+	float:right;
+}
+header .myTitle .Sandwich{
+	display:none;
+}
+header .myTitle .about div{
+	text-align:center;
+	width:50px;
+	height:70px;
+	float:right;
+	margin-right:50px;
+	box-sizing: border-box;
+}
+
+header .myTitle .about div .home{
+	color:#fff;
+	font-size:17px;
+	height:70px;
+	line-height:70px;
+	border-radius: 5px;
+}
+header .myTitle .about div .home:hover{
+	color:rgb(205, 209, 210); 
+	font-size:18px;
+	transition: all 1s linear;
+}
+header .myTitle .about div .dropdown-menu{
+	display:none;
+	margin-left:-30px;
+	width:120px;
+	box-sizing: border-box;
+	color:#fff;
+	background:rgba(185,185,185,0.5);
+	height:210px;
+}
+header .myTitle .about div .dropdown-menu li{
+	box-sizing: border-box;
+	margin-bottom:5px;
+	margin:0 auto;
+	height:40px;
+	overflow: hidden;
+	line-height: 40px;
+}
+header .myTitle .about div .dropdown-menu li a{
+	display:block;
+	color:#fff;
+	font-size:15px;
+	width:90px;
+	margin:0 auto;
+	height:35px;
+	border-radius: 5px;
+}
+header .myTitle .about div .dropdown-menu li a:hover{
+	display:block;
+	font-size:17px;
+	margin:0 auto;
+	height:35px;
+	border:1px solid #fff;
+	box-shadow: 0 2px 1px #222;;
+	border-radius: 5px;
+	transition: all 1s linear;
+}

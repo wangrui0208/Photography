@@ -1,0 +1,117 @@
+/*************gallery***************/
+.body-centy .gallery{
+	background: #fff;
+}
+.body-centy .gallery .gallery-title{
+	padding-top:100px;
+	color: #4B4B4B;
+    font-size: 50px;
+	text-align: center;
+	font-family: "News Cycle", sans-serif;
+	font-weight: 400;
+	padding-bottom: 50px;
+}
+.body-centy .gallery .gallery-list{
+	width:90%;
+	margin:0 auto;
+	text-align: center;
+}
+.body-centy .gallery .gallery-list ul li{
+	margin-left:20px;
+	margin-bottom: 20px;
+	position: relative;
+	float:left;
+	overflow: hidden;
+}
+
+.body-centy .gallery .gallery-list ul li img{
+	width:380px;
+	transition:all 1s;
+}
+.body-centy .gallery .gallery-list ul li img:hover{
+	transform:scale(1.1,1.1);
+}
+
+.body-centy .gallery .gallery-list ul li .line1{
+	animation: line1Move 0.3s linear;
+	animation-fill-mode: forwards;
+}
+.body-centy .gallery .gallery-list ul li .line2{
+	
+	animation: line2Move 0.3s linear;
+	animation-fill-mode: forwards;
+}
+@keyframes line2Move{
+	0%{
+		position: absolute;
+		top:-30px;
+		width:455px;
+		border-left:2px solid transparent;
+		border-top:2px solid #fff;
+		border-right:2px solid transparent;
+		border-bottom:2px solid transparent;
+		transform-origin: 0% 0%;
+		transform: rotate3d(0,0,1,33.8deg);
+		overflow: hidden;
+		opacity:0;
+	}
+	100%{
+		position: absolute;
+		top:0px;
+		right:-60px;
+		width:187px;
+		border-left:2px solid transparent;
+		border-top:2px solid #fff;
+		border-right:2px solid transparent;
+		border-bottom:2px solid transparent;
+		transform-origin: 0% 0%;
+		transform: rotate3d(0,0,1,45deg);
+		overflow: hidden;
+		z-index:12;
+	}
+}
+@keyframes line1Move{
+	0% {
+		position: absolute;
+		top:0px;
+		left:-4px;
+		height:458px;
+		border-left:2px solid #fff;
+		border-top:2px solid transparent;
+		border-right:2px solid transparent;
+		border-bottom:2px solid transparent;
+		transform-origin: 0% 0%;
+		transform: rotate3d(0,0,1,-56.40deg);
+		overflow: hidden;
+		opacity:0;
+	}
+	100%{
+		position: absolute;
+		top:122px;
+		left:-4px;
+		height:187px;
+		border-left:2px solid #fff;
+		border-top:2px solid transparent;
+		border-right:2px solid transparent;
+		border-bottom:2px solid transparent;
+		transform-origin: 0% 0%;
+		transform: rotate3d(0,0,1,-45deg);
+		overflow: hidden;
+		z-index:12;
+	}
+}
+.body-centy .gallery .gallery-list ul li .details{
+	width:70%;
+	position: absolute;
+	color:#fff;
+	top:70px;
+	left:50px;
+	display: none;
+}
+.body-centy .gallery .gallery-list ul li .details h1{
+	margin-bottom: 10px;
+    font-size: 50px;
+	font-family: 'Playfair Display', serif;
+	letter-spacing:-3px;
+	font-weight: blod;
+}

@@ -1,0 +1,141 @@
+/************contact us*************/
+/***总**/
+.body-centy .contact{
+	width:90%;
+	margin:0 auto;
+	padding-bottom: 100px;
+}
+
+.body-centy .contact .contact-title{
+	padding-top:60px;
+	color: #4B4B4B;
+    font-size: 50px;
+	text-align: center;
+	font-family: "News Cycle", sans-serif;
+	font-weight: 400;
+	padding-bottom: 50px;
+}
+.body-centy .contact contact-content{
+	display:inline-flex;
+}
+.body-centy .contact .contact-content>div{
+	width:45%;
+	float: left;
+	box-sizing: border-box;
+}
+/***左**/
+.body-centy .contact .contact-content .contact-introduce {
+	width:600px;
+	height:auto;
+	margin-right:20px;
+}
+.body-centy .contact .contact-content .contact-introduce .introduce-title{
+	color:#3EAABF;
+	font-size:22px;
+	font-family: 'Times New Roman', Times, serif;
+	margin-bottom:15px;
+	text-indent:1em;
+	line-height:30px;
+}
+.body-centy .contact .contact-content .contact-introduce .introduce-details{
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+	color:#737171;
+	line-height:30px;
+	text-indent:1em;
+}
+.body-centy .contact .contact-content .contact-introduce .introduce-address h1{
+	color:#282828;
+	font-size:16px;
+	font-weight: blod;
+	font-style: normal;
+	padding:15px 0 15px 0;
+}
+.body-centy .contact .contact-content .contact-introduce .introduce-address p{
+	color:#777;
+	margin-bottom: 10px;
+}
+.body-centy .contact .contact-content .contact-introduce  .introduce-mail h2{
+	color:#282828;
+	font-size:16px;
+	font-weight: blod;
+	font-style: normal;
+	padding:15px 0 10px 0;
+}
+.body-centy .contact .contact-content .contact-introduce  .introduce-mail a{
+	color:#3EAABF;
+	font-weight: bold;
+}
+/****右****/
+
+.body-centy .contact .contact-content .contact-us{
+	margin-top:0;
+}
+
+.body-centy .contact .contact-content .contact-us div{
+	margin-left:20px;
+	height:90px;
+}
+.body-centy .contact .contact-content .contact-us div input{
+	border:0;
+	width:100%;
+	height:50px;
+	border-bottom:2px solid #ddd;
+	font-size:1em ;
+	background: #ECF0F1;
+	font-family: inherit;
+	color:#757575;
+}
+.body-centy .contact .contact-content .contact-us div .addonblur{
+	border:none;
+	outline:medium;
+	width:100%;
+	height:50px;
+	color:#000;
+	border-bottom:2px solid #009DFF;
+}
+.body-centy .contact .contact-content .contact-us div:nth-child(4){
+	height:150px;
+}
+.body-centy .contact .contact-content .contact-us div textarea{
+	border:0;
+	background: #ECF0F1;
+	width:96%;
+	height:220px;
+	font-size:1em ;
+	font-family: inherit;
+	color:#757575;
+	border-bottom:2px solid #ddd;
+}
+.body-centy .contact .contact-content .contact-us div .addonblur-textarea{
+	border:none;
+	outline:medium;
+	border:0;
+	border-bottom:2px solid #009DFF;
+	color:#000;
+}
+.body-centy .contact .contact-content .contact-us .send{
+	margin-top: 120px;
+}
+.body-centy .contact .contact-content .contact-us .send p{
+	margin-top:10px;
+	width:150px;
+	height:50px;
+	background: #3EAABF;
+	text-align: center;
+	line-height: 50px;
+	color:#fff;
+	border-radius: 5px;
+	box-shadow:6px 6px 2px #dedddd;
+}
+.body-centy .contact .contact-content .contact-us .send p:hover{
+	transition: all 0.5s;
+	transform: rotate(7deg);
+}
+.body-centy .contact .contact-content .contact-us div p.message-title{
+	height: 30px;
+	line-height:30px;
+	color:#3EAABF;
+	display:none;
+	font-size:14px;
+}
